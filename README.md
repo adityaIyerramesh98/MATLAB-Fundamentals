@@ -11,15 +11,3 @@ Here are few points to sum up the visualization of code for a better perspective
 8)	After ending the for-loop, we increment the counter value to plus 1 for loop to run infinitely (motion of pendulum). 
 9)	We use a command called “getframe” ONLY IN MATLAB for storing and saving the 500 iterated images for pendulum’s motion. This command also helps in stitching all the 500 generated images and converts it into a gif, respectively.
 10)	Finally, we make the use of movie maker function already embedded in MATLAB, for making a gif and saving it in the form of a “avi” file in our internal storage.
-
-
-# Stoichiometric-combuation-calculator
-Aim: a) To calculate the stoichiometric coefficient for alkanes, alkenes and alkynes 
-b) To simulate various plots depicting the effect of number of atoms on stoichiometric coefficients by comparing alkanes, alkenes and alkynes respectively
-We have been given a standard reaction which depicts the formation of oxygen, nitrogen and hydrogen by burning if fuel, which is as follows, 
-C_(n ) H_(2n+2)+ar(O_2+3.76N_2 )→aCO_(2 )+bH_2 O+cN_2       
-Here, 
-ar = stoichiometric coefficient 
-a = number of moles of carbon-dioxide
-b = number of moles of water 
-c = number of moles of nitrogen
