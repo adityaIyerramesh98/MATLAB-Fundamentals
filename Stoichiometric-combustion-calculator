@@ -1,0 +1,14 @@
+# Stoichiometric-combaution-calculator
+Aim: a) To calculate the stoichiometric coefficient for alkanes, alkenes and alkynes 
+b) To simulate various plots depicting the effect of number of atoms on stoichiometric coefficients by comparing alkanes, alkenes and alkynes respectively
+We have been given a standard reaction which depicts the formation of oxygen, nitrogen and hydrogen by burning if fuel, which is as follows, 
+C_(n ) H_(2n+2)+ar(O_2+3.76N_2 )→aCO_(2 )+bH_2 O+cN_2       
+Here, 
+ar = stoichiometric coefficient 
+a = number of moles of carbon-dioxide
+b = number of moles of water 
+c = number of moles of nitrogen
+Please note that, after theoretically calculating the stoichiometric coefficients for alkanes, alkenes and alkynes, 
+we then code the same process in MATLAB in order to plot and find out the effect of number of moles and stoichiometric coefficients for 
+different gases and state their results in conclusion.
+
