@@ -35,7 +35,7 @@ c)	Function for “central differencing second order approximation”
 d)	Function for “central differencing fourth order approximation”
 e)  Main programs for single and range if dx values;
 
-**Discussions of Results**
+**Discussions of Results:**
 
 a)	First of all, a function loop for “forward differencing first order approximation” is defined in code space so that error for the approximation can be found out by typing in _“abs”_ command and is stored separately in the same working directory.
 
