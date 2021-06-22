@@ -36,11 +36,18 @@ d)	Function for “central differencing fourth order approximation”
 e)  Main programs for single and range if dx values;
 
 **Discussions of Results**
+
 a)	First of all, a function loop for “forward differencing first order approximation” is defined in code space so that error for the approximation can be found out by typing in _“abs”_ command and is stored separately in the same working directory.
+
 b)	Secondly, a similar function loop for “backward differencing first order approximation” is defined in code space (with a different equation) so that the error for backward approximation can be found out by typing in “abs” command and is stored separately in the same working directory.
+
 c)	Thirdly, two different function loops are created for central differencing error that occurs while performing the computation for “second order” and “fourth order” respectively. Those two programs are stored separately under a suitable name but in same working directory for ease of access when the main program is run for simulating the plots on “effect of dx” on various different types of errors.
+
 d)	Finally, two main programs containing two “for-loops” are coded along with several subplots in midst of them so as to better visualize what effect does a rage of dx has when it is approximated using different approximations separately. 
+
 e)	The first “subplot” depicts that with increasing value of dx, the error as well increases. This portrays the “linear behaviour” of the line plot which was created after running the main program.
+
 f)	The second “log-log plot” depicts that the error for “central-differencing” second and fourth order remains the same when executed, while errors for “forward and backward differencing” first order linearly changes as it advances for the original vertices. As the graph goes on it becomes straightened thereby indicating the curtailing of errors in several order approximations. Second and fourth order errors are straight lines overlapping each other depict very less or nil frequency of error in when “central differencing schemes’ is applied to higher order approximations.
+
 g)	Finally, the third “bar subplot” indicates the frequency of error in different order approximations we have taken. Both the graphs for first order, i.e., “forward differencing and backward differencing” show a significant increase when the range value of dx increases. At the same time, bar plots for “central differencing” for “second and fourth order approximations” show constant (or) real (same-level) behaviour when value of dx changes. So, these sets of bar plots portray a linear relationship when “forward and backward differencing scheme” is considered for “first order approximation” and a constant relationship when “central differencing scheme” is applied to “second and fourth order approximations”, respectively. 
 
